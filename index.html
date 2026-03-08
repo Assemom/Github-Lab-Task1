@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Vision</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">FutureVision</h1>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#stats">Stats</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="menu-btn" id="menu-btn">☰</div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Build The Future With Code</h2>
+            <p>Creative websites powered by imagination and technology.</p>
+            <button onclick="scrollToSection('services')">Explore</button>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>Modern responsive websites using latest technologies.</p>
+            </div>
+
+            <div class="card">
+                <h3>UI / UX Design</h3>
+                <p>Beautiful user interfaces designed for engagement.</p>
+            </div>
+
+            <div class="card">
+                <h3>AI Solutions</h3>
+                <p>Integrate AI into your products and applications.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+
+        <h2>Portfolio</h2>
+
+        <div class="gallery">
+
+            <div class="box">Project 1</div>
+            <div class="box">Project 2</div>
+            <div class="box">Project 3</div>
+            <div class="box">Project 4</div>
+            <div class="box">Project 5</div>
+
+        </div>
+
+    </section>
+
+    <section id="stats" class="stats">
+
+        <h2>Our Impact</h2>
+
+        <div class="numbers">
+
+            <div>
+                <h3 class="counter" data-target="120">0</h3>
+                <p>Projects</p>
+            </div>
+
+            <div>
+                <h3 class="counter" data-target="80">0</h3>
+                <p>Clients</p>
+            </div>
+
+            <div>
+                <h3 class="counter" data-target="15">0</h3>
+                <p>Countries</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact" class="contact">
+
+        <h2>Contact Us</h2>
+
+        <form>
+
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message"></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </section>
+
+    <footer>
+        <p>© 2026 FutureVision</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
